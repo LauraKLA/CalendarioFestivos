@@ -67,18 +67,19 @@ public class ServicioFecha {
         Date domingoPascua = getDomingoPascua(ano);
         return agregarDias(domingoPascua, 40); // Ascensión del Señor es 40 días después del Domingo de Pascua
 
-         //Date domingoPascua = getDomingoPascua(ano);
-         //Date ascensionSenor = agregarDias(domingoPascua, 40); // Ascensión del Señores 40 días después del Domingo de Pascua
+        // Date domingoPascua = getDomingoPascua(ano);
+        // Date ascensionSenor = agregarDias(domingoPascua, 40); // Ascensión del
+        // Señores 40 días después del Domingo de Pascua
 
         // Calendar calendario = Calendar.getInstance();
-         //calendario.setTime(ascensionSenor);
+        // calendario.setTime(ascensionSenor);
 
         // Verificar si la fecha de la Ascensión del Señor no cae en un lunes
-         //if (calendario.get(Calendar.DAY_OF_WEEK) != Calendar.MONDAY) {
+        // if (calendario.get(Calendar.DAY_OF_WEEK) != Calendar.MONDAY) {
 
-        //ascensionSenor = siguienteLunes(ascensionSenor);
-        //}
-        //return ascensionSenor;
+        // ascensionSenor = siguienteLunes(ascensionSenor);
+        // }
+        // return ascensionSenor;
     }
 
     public static Date getCorpusChristi(int ano) {

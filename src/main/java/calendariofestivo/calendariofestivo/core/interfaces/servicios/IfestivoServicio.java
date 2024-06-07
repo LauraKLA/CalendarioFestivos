@@ -13,4 +13,6 @@ public interface IfestivoServicio {
     public List<Festivo> buscar(String nombre);
 
     public String validarSiEsFestivo(Integer dia, Integer mes, Integer ano);
+
+    public List<Festivo> listarPorAno(Integer ano);
 }

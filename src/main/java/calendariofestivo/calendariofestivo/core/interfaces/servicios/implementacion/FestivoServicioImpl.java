@@ -132,4 +132,10 @@ public class FestivoServicioImpl implements IfestivoServicio {
         }
         return "No es festivo";
     }
+
+    @Override
+    public List<Festivo> listarPorAno(Integer ano) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'listarPorAno'");
+    }
 }
